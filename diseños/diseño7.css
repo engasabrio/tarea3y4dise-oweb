@@ -1,0 +1,128 @@
+.container{
+    width: 900px;
+    display: grid;
+    grid-template-areas: 'uno dos tres cuatro cinco seis siete ocho nueve '
+    'diez diez diez diez diez diez diez diez once  '
+    'doce doce doce trece trece trece trece trece trece'
+    'catorce catorce catorce catorce catorce catorce catorce catorce catorce  '
+    'quince quince quince diesiseis diesiseis diesiseis diesisiete diesisiete diesisiete '
+    'diesiocho diesinueve veinte ventiuno ventidos ventitres veticuatro venticinco ventiseis';
+    grid-template-rows: 200px 300px 400px 200px 150px 200px ;
+    margin: auto;
+}
+.uno {
+    grid-area: uno ;
+    background-color: blue;
+
+}
+.dos {
+    grid-area: dos ;
+    background-color: red;
+}
+.tres{
+    grid-area: tres ;
+    background-color: grey;
+}
+.cuatro {
+    grid-area: cuatro ;
+    background-color: blue;
+
+}
+.cinco{
+    grid-area: cinco ;
+    background-color: red ;
+
+}
+.seis{
+    grid-area: seis ;
+    background-color: gray;
+}
+.siete {
+    grid-area: siete ;
+    background-color: blue;
+}
+.ocho {
+    grid-area: ocho ;
+    background-color: red;
+}
+.nueve {
+    grid-area: nueve ;
+    background-color: grey;
+}
+.diez {
+    grid-area: diez ;
+    background-color: black;
+
+}
+.once {
+    grid-area: once ;
+    background-color: #fc6;
+}
+.doce {
+    grid-area: doce ;
+    background-color: red;
+
+}
+.trece {
+    grid-area: trece;
+    background-color: #4af;
+
+}
+.catorce {
+    grid-area: catorce ;
+    background-color: #5fa;
+
+}
+.quince{
+    grid-area: quince ;
+    background-color: #fc6;
+}
+.diesiseis {
+    grid-area: diesiseis ;
+    background-color: black;
+}
+.diesisiete{
+    grid-area:  diesisiete;
+    background-color: #fc6;
+
+}
+.diesiocho{
+    grid-area: diesiocho ;
+    background-color: blue;
+}
+.diesinueve {
+    grid-area: diesinueve ;
+    background-color: red  ;
+
+}
+.veinte{
+    grid-area: veinte ;
+    background-color: gray;
+
+}
+.ventiuno{
+    grid-area: ventiuno;
+    background-color: blue;
+
+}
+.ventidos{
+    grid-area: ventidos ;
+    background-color: red;
+
+}
+.ventitres {
+    grid-area: ventitres ;
+    background-color: gray;
+}
+.venticuatro {
+    grid-area: veticuatro ;
+    background-color: blue;
+}
+.venticinco{
+    grid-area: venticinco;
+    background-color: red;
+}
+.ventiseis {
+    grid-area: ventiseis ;
+    background-color: grey;
+}

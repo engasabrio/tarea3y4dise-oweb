@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-template-areas:
+    'encabezado encabezado encabezado encabezado'
+    'uno uno uno dos'
+    'uno uno uno tres'
+    'cuatro cinco seis siete'
+    'pie pie pie pie'
+    ;
+    grid-template-rows: 20% 35% 35% 20% 5%;
+    margin: auto;
+ }
+ header{
+    grid-area: encabezado;
+    background-color: gray;
+ }
+ .uno{
+    grid-area: uno;
+    background-color: skyblue;
+ }
+ .dos{
+    grid-area: dos;
+    background-color: orange;
+
+ }
+ .tres{
+    grid-area: tres;
+    background-color: blue;
+
+ }
+ .cuatro{
+    grid-area: cuatro;
+    background-color: aquamarine;
+ }
+ .cinco{
+    grid-area: cinco;
+    background-color: yellow;
+ }
+ .seis{
+    grid-area: seis;
+    background-color: red;
+ }
+ .siete{
+    grid-area: siete;
+    background-color: beige;
+ }
+ footer{
+    grid-area: pie;
+    background-color: black;
+ }

@@ -1,0 +1,66 @@
+.container{
+    width: 1200px;
+    display: grid;
+    grid-template-areas:
+    'encabezado encabezado encabezado encabezado encabezado encabezado'
+    'uno uno uno uno uno uno'
+    'dos dos tres tres cuatro cuatro'
+    'seis seis seis seis seis seis'
+    'siete ocho nueve diez once doce'
+    'pie pie pie pie pie pie'
+    ;
+    grid-template-rows: 400px 50px 250px  800px 250px 50px;
+    margin: auto;
+ }
+ header{
+    grid-area: encabezado;
+    background-color: orange;
+ }
+ .uno{
+    grid-area: uno;
+    background-color: green;
+ }
+ .dos{
+    grid-area: dos;
+    background-color: blue;
+ }
+ .tres{
+    grid-area: tres;
+    background-color: yellow;
+ }
+ .cuatro{
+    grid-area: cuatro;
+    background-color: blue;
+ }
+ .seis{
+    grid-area: seis;
+    background-color: orange;
+ }
+ .siete{
+    grid-area: siete;
+    background-color: salmon;
+ }
+ .ocho{
+    grid-area: ocho;
+    background-color: khaki;
+ }
+ .nueve{
+    grid-area: nueve;
+    background-color: salmon;
+ }
+ .diez{
+    grid-area: diez;
+    background-color: khaki;
+ }
+ .once{
+    grid-area: once;
+    background-color: salmon;
+ }
+ .doce{
+    grid-area: doce;
+    background-color: teal;
+ }
+ footer{
+    grid-area: pie;
+    background-color: lightgoldenrodyellow;
+ }

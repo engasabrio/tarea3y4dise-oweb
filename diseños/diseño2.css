@@ -1,0 +1,49 @@
+.container{
+    width: 1440px;
+    display: grid;
+    grid-template-areas: 
+    'encabezado encabezado encabezado encabezado'
+    'cuadro1 cuadro2 cuadro3 cuadro4'
+    'menu contenido contenido  login'
+    'pie pie pie pie'
+    ;
+    grid-template-rows: 350px 125px 500px  50px;
+    margin: auto;
+    text-align: center;
+}
+header{
+    grid-area: encabezado;
+    background-color: skyblue;
+}
+.cuadro1{
+    grid-area: cuadro1;
+    background-color: orange;
+}
+.cuadro2{
+    grid-area: cuadro2;
+    background-color: grey;
+}
+.cuadro3{
+    grid-area: cuadro3;
+    background-color: orange;
+}
+.cuadro4{
+    grid-area: cuadro4;
+    background-color: grey;
+}
+.menu{
+    grid-area:menu;
+    background-color: orange;
+}
+.contenido{
+    grid-area: contenido;
+    background-color: darkgray;
+}
+.login{
+    grid-area: login;
+    background-color: rgb(201, 245, 5);
+}
+footer{
+    grid-area: pie;
+    background-color: blue;
+}

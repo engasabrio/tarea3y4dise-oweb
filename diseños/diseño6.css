@@ -1,0 +1,58 @@
+.container{
+    width: 1200px;
+    display: grid;
+    grid-template-areas:
+    'encabezado encabezado encabezado encabezado encabezado encabezado'
+    'uno uno dos dos tres tres'
+    'cuatro cuatro cuatro cinco cinco cinco'
+    'seis seis seis seis seis siete'
+    'ocho ocho ocho ocho ocho ocho'
+    'nueve pie pie pie pie pie'
+    ;
+    grid-template-rows: 200px 250px 150px 300px 200px 150px;
+    margin: auto;
+ }
+ header{
+    grid-area: encabezado;
+    background-color: black;
+ }
+ .uno{
+    grid-area: uno;
+    background-color: yellow;
+ }
+ .dos{
+    grid-area: dos;
+    background-color: blue;
+ }
+ .tres{
+    grid-area: tres;
+    background-color: yellow;
+ }
+ .cuatro{
+    grid-area: cuatro;
+    background-color: red;
+ }
+ .cinco{
+    grid-area: cinco;
+    background-color: green;
+ }
+ .seis{
+    grid-area: seis;
+    background-color: orange;
+ }
+ .siete{
+    grid-area: siete;
+    background-color: red;
+ }
+ .ocho{
+    grid-area: ocho;
+    background-color: beige;
+ }
+ .nueve{
+    grid-area: nueve;
+    background-color: red;
+ }
+ footer{
+    grid-area: pie;
+    background-color: orange;
+ }
